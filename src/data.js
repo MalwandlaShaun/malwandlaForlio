@@ -141,6 +141,14 @@ export const data = [
     name: "Java Intermediate",
   },
   {
+    id: 8,
+    img: "./images/certificate/codex.png",
+    country: "SA",
+    url: "https://www.projectcodex.co/",
+
+    name: "Project Codex",
+  },
+  {
     category: "frontend",
     id: 93,
     img: {

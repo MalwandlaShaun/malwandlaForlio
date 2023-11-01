@@ -1,5 +1,6 @@
 // import React from "react";
 import "./heading.css";
+import PropTypes from "prop-types"; // Import PropTypes
 
 export const Heading = ({ text, style }) => {
   return (
@@ -8,4 +9,9 @@ export const Heading = ({ text, style }) => {
       <span></span>
     </div>
   );
+};
+
+Heading.propTypes = {
+  text: PropTypes.string.isRequired, // Validate that `text` is a required string
+  style: PropTypes.string.isRequired, // Validate that `style` is a required string
 };
